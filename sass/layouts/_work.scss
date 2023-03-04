@@ -1,0 +1,52 @@
+.work {
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+  
+    padding-top: 0;
+  }
+  .work__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+  
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 50px;
+      font-size: 36px;
+      line-height: 1.16;
+    }
+  }
+  
+  .work__list {
+    display: flex;
+  }
+
+  .work__item:not(:last-child) {
+    margin-right: 30px;
+  }
+  
+  .work__card {
+    position: relative;
+  }
+
+  .work__about {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+    background: rgba(47, 48, 58, 0.8);
+  }
+
+  .work__text {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-bgd-color);
+  }

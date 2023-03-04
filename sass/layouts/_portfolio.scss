@@ -1,0 +1,28 @@
+.portfolio__list {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -15px;
+      }
+     
+}
+.portfolio__item {
+    max-width: 450px;
+
+    &:not(:last-child) {
+      @media screen and (max-width: 767px) {
+        margin-bottom: 30px;
+      }
+  
+    }
+  
+    @media screen and (min-width: 768px) {
+      margin: 15px;
+      width: calc((100% - 4 * 15px) / 2);
+    }
+  
+    @media screen and (min-width: 1200px) {
+      margin: 15px;
+      width: calc((100% - 6 * 15px) / 3);
+    }
+}

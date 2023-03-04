@@ -1,0 +1,33 @@
+.subscribe__btn {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 200px;
+    height: 50px;
+  
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+  
+    color: var(--header-bgd-color);
+    background-color: var(--link-selection-solor);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    transition: background-color var(--animation-timing-function);
+  
+    &:hover,
+    &:focus {
+      cursor: pointer;
+      background-color: var(--hover-btn);
+    }
+  
+    @media screen and (min-width: 1199px) {
+      margin-left: 12px;
+    }
+  }
+  
+  .subscription__icon {
+    margin-left: 10px;
+    fill: currentColor;
+  }
